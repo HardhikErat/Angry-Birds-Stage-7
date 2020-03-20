@@ -10,7 +10,7 @@ class Pig extends BaseClass {
    if(this.body.speed < 3){
     super.display();
    }
-   else{kkkmikkk
+   else{
      World.remove(world, this.body);
      push();
      this.Visiblity = this.Visiblity - 5;
